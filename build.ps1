@@ -5,3 +5,4 @@ venv\scripts\activate
 pip install pytest
 pip install teamcity_messages
 pytest -v
+rd venv -r -fo #tear down virtualenv for package
