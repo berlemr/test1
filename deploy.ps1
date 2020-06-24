@@ -7,6 +7,7 @@ if(!(test-path .\venv)){
 	& c:\users\reneb\mycode\tcity_testrunner\venv\scripts\python.exe -m venv venv
 }
 
+rm environment.txt
 $env > environment.txt
 write-host $env
 
